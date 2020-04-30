@@ -19,7 +19,20 @@ h3 {
 }
 
 a {
+  font-family: 'Montserrat', sans-serif;
   color: #018383;
+  text-decoration: none;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+hr {
+  color: #018383;
+  border-width: 7px;
+  border-style: none;
+  border-top-style: dotted;
+  width: 7%;
 }
 
 body{
@@ -36,9 +49,12 @@ body{
 }
 .middle-container {
   padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #faeee7;
 }
 .bottom-container {
+  padding-top: 50px;
+  padding-bottom: 50px;
   background-color: #ff8ba7;
 }
 
@@ -48,15 +64,49 @@ body{
 
 .skill-row {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 70px auto 70px auto;
   text-align: left;
   line-height: 2;
 }
 
+.intro-text {
+  padding-bottom: 30px;
+}
+
 .copyright-text {
   color: white;
-  padding-bottom: 20px;
   margin-bottom: 0;
+}
+
+.BUTTON_IGE {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #FF8BA7;
+   -webkit-box-shadow: 1px 1px 20px 0 #AD366E;
+   -moz-box-shadow: 1px 1px 20px 0 #AD366E;
+   box-shadow: 1px 1px 20px 0 #AD366E;
+   text-shadow: 1px 1px 20px #701B43;
+   border: solid #D16F9D 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.BUTTON_IGE:hover {
+   background: #E76E8B;
+   border: solid #D16F9D 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
 
 .profile-picture {
@@ -72,6 +122,13 @@ body{
 .piano-picture {
   float: right;
   margin-left: 30px;
+}
+
+.switch-picture {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 30%;
 }
 
 .skill-picture {
